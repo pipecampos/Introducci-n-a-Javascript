@@ -1,0 +1,43 @@
+
+<!DOCTYPE html>
+<html lang="eS">
+<head>
+	<title>Ejemplo 2 JS</title>
+	<meta charset="UTF-8">
+	<!--  Enlazamos  los  estilos  CSS-->
+	<link rel="stylesheet" href="ejercicio1.css">
+</head>
+<body>
+	<!-- Creamos un DIV para contener el formulario -->
+	<div id="form">
+	<span>Ingrese los números:</span>
+	<!-- Creamos dos input para recuperar los datos ingresados por el usuario -->
+	    <div id = "cuadro">
+            <div id = "cuadro1">
+                <span>número 1:</span>
+                <input  id="input-uno" type="text">
+            </div>
+            <div id = "cuadro2">
+                <span>número 2:</span>
+                <input  id="input-dos" type="text">
+            </div>
+        </div>
+       
+        	    
+	<!--  Creamos  un  botón  con  el  fin  de  invocar  la  suma  -->
+	<button id="btn">Enviar</button>
+	</div>
+	<!-- Creamos in DIV que permita mostrar el resultado de la suma -->
+    <div id="grilla">
+        <span>Minimo:</span>
+        <div id="minimo"></div>
+        <span>Maximo:</span>
+        <div id="maximo"></div>
+        <span>número aleatorio:</span>
+        <div id="resultado"></div>
+    </div>
+    
+	<!-- Enlazamos el código JS -->
+	<script src="ejercicio1.js"></script>
+</body>
+</html>
